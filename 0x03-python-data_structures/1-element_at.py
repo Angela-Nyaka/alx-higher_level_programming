@@ -1,8 +1,3 @@
 #!/usr/bin/python3
-if __name__ == "main":
-def element_at(my_list, idx):    
-if idx == 0:
-       print ("None")
-    if idx > my_list[i] + 1:
-       print ("None")
-print(my_list.pop)
+def element_at(my_list, idx):
+    return(my_list[idx] if 0 <= idx < len(my_list) else "None")
